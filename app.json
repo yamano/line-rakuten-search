@@ -1,0 +1,43 @@
+{
+  "name": "RAKUTEN Search for LINE BOT",
+  "description": "RAKUTEN Search for LINE BOT",
+  "repository": "https://github.com/yamano/line-rakuten-search",
+  "keywords": ["line", "bot"],
+  "env": {
+    "LINE_CHANNEL_ID": {
+      "description": "Channel ID",
+      "required": true
+    },
+    "LINE_CHANNEL_SECRET": {
+      "description": "Channel secret",
+      "required": true
+    },
+    "LINE_CHANNEL_MID": {
+      "description": "Channel MID",
+      "required": true
+    },
+    "RAKUTEN_APPLICATION_ID": {
+      "description": "Application ID",
+      "required": false
+    },
+    "RAKUTEN_AFFILIATE_ID": {
+      "description": "Affiliate ID",
+      "required": false
+    },
+    "RAKUTEN_GENREID": {
+      "description": "Cenre ID",
+      "required": false
+    },
+    "RAKUTEN_SHOPCODE": {
+      "description": "Shop Code",
+      "required": false
+    },
+    "FIXIE_URL": {
+      "description": "Fixie Url",
+      "reqired": false
+    }
+  },
+  "addons": [
+    "fixie:tricycle"
+  ]
+}
